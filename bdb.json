@@ -1,13 +1,21 @@
 {
   "name": "sleep",
   "main": "__init__.py",
-  "inputs": [],
+  "inputs": [
+    {
+      "name": "duration",
+      "type": "integer",
+      "value": 1,
+      "optional": false,
+      "description": "duration of the nap in seconds"
+    }
+  ],
   "author": "dcolens",
   "description": "sleeps",
   "entitlements": [],
   "groups": [],
   "contributors": [],
-  "minutes_saved": 0,
+  "minutes_saved": null,
   "labels": [],
   "service": "python3",
   "timeOut": 60000
