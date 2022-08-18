@@ -19,7 +19,9 @@
   ],
   "author": "dcolens",
   "description": "sleeps",
-  "entitlements": [],
+  "entitlements": [
+    "public"
+  ],
   "groups": [],
   "contributors": [],
   "minutes_saved": null,
