@@ -1,0 +1,14 @@
+{
+  "name": "sleep",
+  "main": "__init__.py",
+  "inputs": [],
+  "author": "dcolens",
+  "description": "sleeps",
+  "entitlements": [],
+  "groups": [],
+  "contributors": [],
+  "minutes_saved": 0,
+  "labels": [],
+  "service": "python3",
+  "timeOut": 60000
+}
