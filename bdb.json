@@ -8,6 +8,13 @@
       "value": 1,
       "optional": false,
       "description": "duration of the nap in seconds"
+    },
+    {
+      "name": "size",
+      "type": "integer",
+      "value": 1,
+      "optional": false,
+      "description": "size of the output"
     }
   ],
   "author": "dcolens",
