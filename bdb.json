@@ -27,5 +27,5 @@
   "minutes_saved": null,
   "labels": [],
   "service": "python3",
-  "timeOut": 60000
+  "timeOut": 1800000
 }
