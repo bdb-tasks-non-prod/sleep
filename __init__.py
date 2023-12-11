@@ -5,7 +5,6 @@ logger = logging.getLogger(__name__)
 formatter = logging.Formatter("%(asctime)s - [%(levelname)8s] %(name)s.%(lineno)d --- %(message)s")
 logger.setLevel(logging.INFO)
 
-
 def task(env, duration=1, size=1):
     """
     sleeps `duration`  second and returns `size` times "x", used to test timeouts and large outputs.
