@@ -7,6 +7,6 @@ def task(env, duration=1, size=1):
     """
     #sleep duration seconds
     sleep(duration)
-    
+
     #return size times "x"
     return "x" * size
