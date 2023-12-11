@@ -8,6 +8,7 @@ logger.setLevel(logging.INFO)
 def task(env, duration=1, size=1):
     """
     sleeps `duration`  second and returns `size` times "x", used to test timeouts and large outputs.
+    also does progressive logging
     """
     # sleep duration seconds
     step = int(duration / 10)
