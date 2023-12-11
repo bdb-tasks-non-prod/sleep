@@ -1,12 +1,22 @@
-from __future__ import unicode_literals, absolute_import, print_function
+import logging
 from time import sleep
+
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter("%(asctime)s - [%(levelname)8s] %(name)s.%(lineno)d --- %(message)s")
+logger.setLevel(logging.INFO)
+
 
 def task(env, duration=1, size=1):
     """
     sleeps `duration`  second and returns `size` times "x", used to test timeouts and large outputs.
     """
-    #sleep duration seconds
-    sleep(duration)
+    # sleep duration seconds
+    step = int(duration / 10)
 
-    #return size times "x"
+    for i in range(0, step):
+        logger.info(f"{i * 10}s")
+        sleep(10)
+
+    logger.info(f"sleep for {duration}s - DONE")
+    # return size times "x"
     return "x" * size
