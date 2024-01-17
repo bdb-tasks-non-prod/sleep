@@ -26,6 +26,6 @@
   "contributors": [],
   "minutes_saved": null,
   "labels": [],
-  "service": "python3",
+  "service": "python3.11",
   "timeOut": 1800000
 }
