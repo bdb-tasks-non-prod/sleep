@@ -10,7 +10,7 @@ def task(env, duration=1, size=1):
     sleeps `duration`  second and returns `size` times "x", used to test timeouts and large outputs.
     """
     # sleep duration seconds
-    step = int(duration / 10)
+    step = int(int(duration) / 10)
 
     for i in range(0, step):
         logger.info(f"{i * 10}s")
